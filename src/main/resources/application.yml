@@ -1,0 +1,12 @@
+server:
+  port: 7000
+spring:
+  application:
+    name: serviceEquipment
+  profiles:
+    active:
+    - dev
+  cloud:
+    config:
+      uri:
+      - http://localhost:8888/
